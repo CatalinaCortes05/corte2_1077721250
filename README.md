@@ -22,7 +22,7 @@ Datos a tener en cuenta
 `Categoria de carros`
 | id |nombre | descripción| distintivo |
 |----|-------|-----------|-----------|
-|  1 |101    |C-101      |2500       |
+|  1 |101gi    |C-101      |2500       |
 |  2 |102    |C-102      |2400       |
 |  3 |112    |B-112      |600        |
 |  4 |112    |A-112      |1600       |
