@@ -16,13 +16,12 @@
 3. RF3: Realizar la CRUD de AutosPersona con la siguiente estructura: `AutosPersona {Id, nombre, ref:Autos, ref:persona}`.
 4. RF4: Realizar la CRUD de Persona con la siguiente estructura: `Persona {Id, nombre, edad, genero, direccion y ocupación}`.
 
-#### Diseñar Base de Datos
-Datos a tener en cuenta
+#### Diseñar Base de datos
+Catagoria de carros
 
-`Categoria de carros`
-| id |nombre | descripción| distintivo |
-|----|-------|-----------|-----------|
-|  1 |101gi    |C-101      |2500       |
-|  2 |102    |C-102      |2400       |
-|  3 |112    |B-112      |600        |
-|  4 |112    |A-112      |1600       |
+|Id |     Nombre      |                       Descripción                   | Distintivo |
+|---|-----------------|-----------------------------------------------------|------------|
+|1  | Todo Terreno    | Diseñados para cualquier tipo de terreno            |
+|2  | Sedan Ejecutivo | Diseñados para ofrecer lujo y alto                  |
+|   |                 | rendimiento en carretera.                           |     
+|3  | Deportivos      | Diseñados para ofrecer la máxima emoción al volante.| 
