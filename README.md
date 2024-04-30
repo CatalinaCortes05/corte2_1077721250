@@ -19,9 +19,8 @@
 #### Diseñar Base de datos
 Catagoria de carros
 
-|Id |     Nombre      |                       Descripción                   | Distintivo |
-|---|-----------------|-----------------------------------------------------|------------|
-|1  | Todo Terreno    | Diseñados para cualquier tipo de terreno            |
-|2  | Sedan Ejecutivo | Diseñados para ofrecer lujo y alto                  |
-|   |                 | rendimiento en carretera.                           |     
-|3  | Deportivos      | Diseñados para ofrecer la máxima emoción al volante.| 
+|Id|     Nombre    |                       Descripción                   |              Distintivo                      |
+|--|---------------|-----------------------------------------------------|----------------------------------------------|
+|1 |Todo Terreno   |Diseñados para cualquier tipo de terreno             |Es un auto muy atractivo para nuevas aventuras.
+|2 |Sedan Ejecutivo|Diseñados para ofrecer lujo y alto rendimiento.      |Es un auto que aporta lujo y exclusividad.     
+|3 |Deportivos     |Diseñados para ofrecer la máxima emoción al volante. |Autos de alta potencia y rendimiento.
