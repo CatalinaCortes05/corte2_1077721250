@@ -1,18 +1,18 @@
 # Parcial Sistema de registro de Concesionario.
 
-### Necesidad: Se tiene un concesionario donde se quiere desarrollar un sistema que permita llevar el registro de la siguiente infomación; Categoría de carros que lleve un `Id`, `nombre categoria`, `descripcón` y `distintivo`.Autos con `Id`, `nombre`, `marca`, `año de fabricación`, `precio` y `ref: Categoria de carros`. AutosPersona `Id`, `cliente`, `ref: Autos`, `ref: Persona`. Persona `Id`, `nombre`, `edad`, `genero`, `dirección` y `ocupación`. En el cual se tiene una relación de un Auto con su respectiva Categoria de carros y una relación de AutosPersona con Autos y Persona.  
+### Necesidad: Se tiene un concesionario donde se quiere desarrollar un sistema que permita llevar el registro de la siguiente infomación; Categoría que lleve un `Id`, `nombre categoria`, `descripcón` y `distintivo`.Autos con `Id`, `nombre`, `marca`, `año de fabricación`, `precio` y `ref: Categoria de carros`. AutosPersona `Id`, `cliente`, `ref: Autos`, `ref: Persona`. Persona `Id`, `nombre`, `edad`, `genero`, `dirección` y `ocupación`. En el cual se tiene una relación de un Auto con su respectiva Categoria de carros y una relación de AutosPersona con Autos y Persona.  
 
 
 #### Análisis: Definición de requerimientos. 
 
-* Categoria de carros {Id, nombre, descripción, distintivo}
+* Categoria {Id, nombre, descripción, distintivo}
 * Autos{Id, nombre, marca, año de fabricación, precio, ref:categoria de carros}
 * AutosPersona {Id, cliente, ref:Autos, ref:persona}
 * Persona {Id, nombre, edad, genero, direccion y ocupación}
 
-1. RF1: Realizar la CRUD de categoria de carros, donde se requiere la siguiente estructura de la entidad : `categorria de carros {Id, nombre, descripción, distintivo}`.
+1. RF1: Realizar la CRUD de categoria, donde se requiere la siguiente estructura de la entidad : `categorria {Id, nombre, descripción, distintivo}`.
 - No puede existir un auto con el mismo Id
-2. RF2: Realizar la CRUD de Autos que lleve la siguiente estructura: `Autos{Id, nombre, marca, año de fabricación, precio, ref:categoria de carros}`. 
+2. RF2: Realizar la CRUD de Autos que lleve la siguiente estructura: `Autos{Id, nombre, marca, año de fabricación, precio, ref:categoria}`. 
 3. RF3: Realizar la CRUD de AutosPersona con la siguiente estructura: `AutosPersona {Id, cliente, ref:Autos, ref:persona}`.
 4. RF4: Realizar la CRUD de Persona con la siguiente estructura: `Persona {Id, nombre, edad, genero, direccion y ocupación}`.
 
@@ -96,5 +96,6 @@
      );
 
 
-   
+   ## Ver planificación 
+   (https://trello.com/invite/b/0f882wDs/ATTIe6f326222dc62d21e3e1bfbecb68db4a00D64AAF/parcial)
     
