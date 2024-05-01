@@ -97,5 +97,5 @@
 
 
    ## Ver planificación 
-   (https://trello.com/invite/b/0f882wDs/ATTIe6f326222dc62d21e3e1bfbecb68db4a00D64AAF/parcial)
+   [Ver aqui](https://trello.com/invite/b/0f882wDs/ATTIe6f326222dc62d21e3e1bfbecb68db4a00D64AAF/parcial)
     
