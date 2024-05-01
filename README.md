@@ -28,6 +28,7 @@ Catagoria de carros
 Autos
 
 |Id|         Nombre       |    Marca     | Año fabricación |    Precio   | Categoria Carro Id|
+|--|----------------------|--------------|-----------------|-------------|-------------------|
 |1 |Toyota Land Cruiser   |Land Cruiser  |      1960       | USD46.300   |        1          |
 |2 |Mercedes-Benz Clase E |Mercedes-Benz |      1993       | USD 9,795   |        2          |
 |3 |Porsche 911           |Porsche       |      1963       | USD 335.100 |        3          |
@@ -35,6 +36,7 @@ Autos
 Persona
 
 |Id|     Nombre   | Edad | Genero |  Dirección | Ocupación | 
+|--|--------------|------|--------|------------|-----------|
 |1 | Camila Perez |  26  |   F    |Cr 7 15-35  |  Pediatra |
 |2 | Oscar Cortes |  29  |   M    |Cll 13 8-27 | Contador  |
 |3 | Maria Mendes |  35  |   F    |Cll 8 30-127| Empresaria|
@@ -42,6 +44,7 @@ Persona
 AutosPersona
 
 |Id|   Cliente | Autos Id | Persona Id |
+|--|-----------|----------|------------|
 |1 | Cliente 1 |     1    |     3      |
 |2 | Cliente 2 |     2    |     2      |
 |3 | Cliente 3 |     3    |     1      |
