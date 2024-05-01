@@ -1,0 +1,38 @@
+@startuml Concesionario 
+
+class Categoria{
+    -Int: Id
+    -String: Nombre 
+    -String: Descripción
+    -String: Distintivo
+}
+
+class Autos{
+    -Int: Id
+    -String: Nombre 
+    -String: Marca
+    -Date: AñoFabricación
+    -Float: Precio
+    -Categoria: categoria_Id
+}
+
+class Persona{
+    - Int: Id
+    -String: Nombre
+    -Int: Edad
+    -String: Genero
+    -String: Dirección
+    -String: Ocupación
+}
+
+class Autospersona{
+    -Int: Id
+    -String: Cliente
+    -Autos: autos_Id
+    -Persona: persona_Id
+}
+
+Categoria "1" -- "*" Autos: contiene
+Persona "1" -- "*" Autospersona : contiene
+Autos "1" -- "*" Autospersona : contienen
+@enduml
