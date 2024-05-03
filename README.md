@@ -35,11 +35,12 @@
 
 `Persona`
 
-|Id|     Nombre   | Edad | Genero |  Dirección | Ocupación | 
-|--|--------------|------|--------|------------|-----------|
-|1 | Camila Perez |  26  |   F    |Cr 7 15-35  |  Pediatra |
-|2 | Oscar Cortes |  29  |   M    |Cll 13 8-27 | Contador  |
-|3 | Maria Mendes |  35  |   F    |Cll 8 30-127| Empresaria|
+|Id|     Nombre     | Edad | Genero |  Dirección | Ocupación | 
+|--|----------------|------|--------|------------|-----------|
+|1 | Camila Perez   |  26  |   F    |Cr 7 15-35  |  Pediatra |
+|2 | Oscar Cortes   |  29  |   M    |Cll 13 8-27 | Contador  |
+|3 | Maria Mendes   |  35  |   F    |Cll 8 30-127| Empresaria|
+|4 | catalina cortes| 20   |   F    |Cll 5 13-20 | Ingeniera |
 
 `AutosPersona`
 
